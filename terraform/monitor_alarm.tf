@@ -1,7 +1,7 @@
 # Sample Sumol
 
 module "network_theat" {
-  source               = "./modules/alarms"
+  source               = "./modules/sumo_monitor"
   standard_name        = "Network Threat"
   standard_description = "Suspicious network activity detected, please investigate."
   
