@@ -1,4 +1,4 @@
-# Sample Sumol
+# Sample Sumologic monitor that sends a Slack notification with a custom payload
 
 module "network_theat" {
   source               = "./modules/sumo_monitor"
