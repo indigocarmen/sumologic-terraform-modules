@@ -3,7 +3,7 @@ resource "sumologic_connection" "slack_alerts" {
   description = "Slack connection for notifications from Monitors"
   type = "WebhookConnection"
   webhook_type = "Slack"
-  url = <YOUR URL HERE>
+  url = "https://google.com"
   default_payload = <<JSON
 {
     "text": "Sumo Logic Warning *{{SearchName}}*",
